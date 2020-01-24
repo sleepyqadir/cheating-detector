@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>E-Cheker</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,700,800"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../css/open-iconic-bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/animate.css" />
+
+    <link rel="stylesheet" href="../css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="../css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="../css/magnific-popup.css" />
+
+    <link rel="stylesheet" href="../css/aos.css" />
+
+    <link rel="stylesheet" href="../css/ionicons.min.css" />
+
+    <link rel="stylesheet" href="../css/bootstrap-datepicker.css" />
+    <link rel="stylesheet" href="../css/jquery.timepicker.css" />
+
+    <link rel="stylesheet" href="../css/flaticon.css" />
+    <link rel="stylesheet" href="../css/icomoon.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light"
+      id="ftco-navbar"
+    >
+      <div class="container">
+        <a class="navbar-brand2" href="../mainWindow.html">E-Checker</a>
+        <a href="./Selectmethod.html" class="btn btn-primary px-4">Back</a>
+      </div>
+    </nav>
+    <template id="single-post">
+      <div class="item text-center">
+        <div class="testimony-wrap p-4 pb-5">
+          <div class="user-img mb-4">
+            <span
+              class="quote d-flex align-items-center justify-content-center"
+            >
+              <i class="icon-quote-left"></i>
+            </span>
+          </div>
+          <div class="text">
+            <p class="mb-57"></p>
+          </div>
+        </div>
+      </div>
+    </template>
+    <section class="ftco-section testimony-section bg-light">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 text-center heading-section ftco-animate">
+            <span class="subheading">All Image</span>
+            <h2 class="mb-4">Check the Images Text</h2>
+            <canvas id="barChart"></canvas>
+          </div>
+        </div>
+        <div class="row ftco-animate">
+          <div id="available-posts" class="col-md-12">
+            <div class="posts carousel-testimony owl-carousel ftco-owl"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="upload-btn-wrapper">
+              <button class="btn" onclick="Main()">
+                Convert To Text
+              </button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="upload-btn-wrapper">
+              <button class="btn">Upload a file</button>
+              <input type="file" name="myfile" id="myfile" multiple />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="upload-btn-wrapper">
+              <button id="check" class="btn" onclick="Check()">
+                Check similarity
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="../scripts/image.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.easing.1.3.js"></script>
+    <script src="../js/jquery.waypoints.min.js"></script>
+    <script src="../js/jquery.stellar.min.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/jquery.magnific-popup.min.js"></script>
+    <script src="../js/aos.js"></script>
+    <script src="../js/jquery.animateNumber.min.js"></script>
+    <script src="../js/bootstrap-datepicker.js"></script>
+    <script src="../js/jquery.timepicker.min.js"></script>
+    <script src="../js/particles.min.js"></script>
+    <script src="../js/particle.js"></script>
+    <script src="../js/scrollax.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="../js/google-map.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
